@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins" , sans-serif;
+    list-style: none;
+}
+/*configurações da pagina inicial*/
+.Home{
+    background: linear-gradient(rgba(0,0,0, 0.5),rgba(0,0,0, 0.5)),url(imagens/img.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+body {
+    overflow: hidden;
+}
+
+h2{
+    font-size: 35px;
+    text-align:left;
+}
+spain{
+    font-size: 30px;
+    color: darkgoldenrod;
+}
+
+h3{
+    color: #f0f094;
+    font-size: 25px;
+    text-align: justify;
+    text-decoration: double;
+}
+
+p{
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.nav{
+    position: fixed; /* Fixa o header no topo da página */
+    top: 0;     /* Posiciona o header na parte superior */
+    right: 0; /* Alinha o header à direita */
+    z-index: 1000;
+    display:flex;
+    float: right;
+    padding: 8px 16px;
+    text-decoration: none;
+    gap: 3rem;
+    font-weight: 300;
+    cursor:pointer;
+    text-align:center;
+    overflow: auto;/* Permite a rolagem do conteúdo caso exceda o tamanho da tela */
+}
+.nav li a {
+    color: rgb(77, 216, 238);
+    font-size: 18px;
+    padding: 8px 16px;
+    display: block;
+    text-decoration: none;
+}
+/* Estilos para a navegação */
+.nav ul {
+    list-style: none; /* Remove marcadores da lista */
+    margin: 0;        /* Remove margens */
+    padding: 0;       /* Remove espaçamento interno */
+    display: flex;    /* Exibe os itens em linha */
+}
+/*hover - para destacar o menu ao passar o cursor*/
+.nav ul a:hover {
+    color: rgb(245, 245, 14);
+    transition: 0.2s all;
+    text-decoration: underline;
+}
+/*menu flutuante ao lado direito da pagina*/
+ .nav li{
+    float: right;
+ }
+ /*cor de fundo e alinhamento de todas as sessões*/
+section {
+    min-height: 100vh;
+    padding: 6rem 6rem 2rem;
+    border: solid 1px var(#0a6676);
+    background-color:dimgray;
+}  
+
+h1{
+    color:#4eb77a;
+    font-size: 40px;
+}
+
+h2{
+    color: aquamarine;
+    font-size: 30px;
+}
+h3{
+    color:#ebdd44
+}
+
+p {
+    color: #fafaf9;
+    font-size: 20px;
+   }
+spain {
+    color: rgb(235, 243, 16);
+    font-size: 35px;
+}
+
+.Home{ 
+    border: 0;
+}
+.Home-content p{
+    text-align: justify;
+    font-size: 18px;
+    color: #fafaf8; 
+}
+.Sobre{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Sobre-content p {
+    border: 0;
+    text-align:center;
+    font-size: 18px;
+    color: #fafaf8;
+    padding: 0;
+}
+
+
+.Formação-content p{
+    font-size: 19px;
+    text-align: justify;
+}
+
+.Formação-content spain {
+    font-size:24px
+}
+
+.Trabalhos p{
+    border: 0;
+    color: #fafaf9;
+    font-style: italic;
+    font-size: 18px;
+    text-align: justify;
+}
+a{
+    color: #3accd6;
+}
+.Portfólio-content p{
+    border:0;
+    text-align: justify;
+    font-size: 15px;
+}
+
+.Portfólio-content h2{
+    font-size: 30px;
+}
+
+.Contato-Content{
+    text-align: center;
+    image-orientation: flip;
+    border-image:auto;
+}
+
+footer {
+    margin: 0;
+    text-align: center;
+    padding: 20px;
+    background-color:transparent;
+    color: #fafaf9;
+    position:fixed;
+    box-sizing:unset;
+    width: 100%;
+    height: 10%;
+    bottom:0%;
+ }
+ footer a{
+    color: #28d470;
+ }
+
+ .logo i{
+    position: fixed; 
+    top: 0;     
+    left: 0; 
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    border: 1px solid #f1f736;
+    color: #5ae7ec;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    cursor: none;
+}
+
+
+.text h3{
+    color: #fff;
+    font-size: 20px;
+}
+
+.text h1{
+    color: #fff;
+    margin-top: 10px;
+}
+
+.text span{
+    color: #2ecc71; 
+}
+
+.text p{
+    color: #fff;
+    text-align:center;
+    font-weight: 80;
+    font-style:italic;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.redes-social{
+    margin-top: 10px;
+}
+
+.redes-sociais  {
+    color: #28d470;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+    
